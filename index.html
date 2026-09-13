@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivio Classificato — Governo di Roma</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #d4d4d4;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            border: 2px solid #8b0000;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+            background: #111;
+        }
+
+        header h1 {
+            color: #c41e3a;
+            font-size: 1.4rem;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .warning {
+            background: #1a0000;
+            border-left: 4px solid #c41e3a;
+            padding: 12px 16px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #c41e3a;
+            font-size: 1.1rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            letter-spacing: 1px;
+        }
+
+        .doc-list {
+            list-style: none;
+        }
+
+        .doc-list li {
+            margin-bottom: 12px;
+        }
+
+        .doc-list a {
+            color: #a0a0a0;
+            text-decoration: none;
+            display: block;
+            padding: 12px 16px;
+            background: #141414;
+            border: 1px solid #2a2a2a;
+            transition: all 0.2s;
+        }
+
+        .doc-list a:hover {
+            background: #1f1f1f;
+            border-color: #c41e3a;
+            color: #fff;
+        }
+
+        .doc-list a span {
+            display: block;
+            font-size: 0.75rem;
+            color: #666;
+            margin-top: 4px;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #555;
+            border-top: 1px solid #222;
+            padding-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+            header h1 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ARCHIVIO CLASSIFICATO</h1>
+            <p>GOVERNO DI ROMA — LIVELLO 4</p>
+            <p>Anno 2009 — Accesso non autorizzato sarà punito</p>
+        </header>
+
+        <div class="warning">
+            ⚠ DOCUMENTO FILTRATO — Este archivo no debería estar disponible públicamente.  
+            Cualquier difusión será considerada traición al Imperio.
+        </div>
+
+        <div class="section">
+            <h2>DOCUMENTOS RECUPERADOS</h2>
+            <ul class="doc-list">
+                <li>
+                    <a href="documentos/informe-milan.pdf" target="_blank">
+                        Informe Operación Milano
+                        <span>14 Maggio 2009 — Confidencial</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="documentos/canarias.pdf" target="_blank">
+                        Limpieza Islas Canarias — Resultados
+                        <span>Clasificado — Solo acceso imperial</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mapas/mapa-italia-norte.jpg" target="_blank">
+                        Mapa de operaciones — Norte de Italia
+                        <span>Zonas de pacificación</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mapas/mapa-mundo.jpg" target="_blank">
+                        Mapa general del Imperio y aliados
+                        <span>Actualizado Mayo 2009</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>TRANSMISIONES INTERCEPTADAS</h2>
+            <ul class="doc-list">
+                <li>
+                    <a href="https://tu-canal-youtube.com" target="_blank">
+                        Transmisión Movimento Sardone (Video 2)
+                        <span>Enlace externo — posible contenido subversivo</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            Sistema de Archivo Imperial v.3.1<br>
+            Qualsiasi tentativo di accesso non autorizzato verrà registrato
+        </footer>
+    </div>
+</body>
+  </html>
